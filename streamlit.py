@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
-import pickle
+import joblib
 import streamlit as st
 
 #load the model 
-loaded_model = pickle.load(open('trained model.pkl', 'rb'))
+loaded_model = joblib.load('final_model.pkl')
 
 def Travel_Insurance_Prediction(Age, Employment_type, Graduate, Annual_income, Family_members, Chronic_diseases, Frequent_flyer, Ever_travelled_abroad):
     input_data_array = np.asarray([Age, Employment_type, Graduate, Annual_income, Family_members, Chronic_diseases, Frequent_flyer, Ever_travelled_abroad])
