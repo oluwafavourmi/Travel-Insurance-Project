@@ -1,1 +1,2 @@
 # Travel-Insurance-Project
+##### In this project, we analyzed the data of this travel insurance agency, the TRAVEL INSURANCE notebook of this project experiments training the dataset on different Machine Learning algorithms, after a thorough exploratory data analysis was done , in the travel_insurance_NN notebook, the focus mainly was on applying Artificial Neural Network for Travel Insurance Prediction
